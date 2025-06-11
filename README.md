@@ -89,7 +89,7 @@
 
  (3) Justify your choice based on technical points.
       
-      Each blockchain serves distinct needs: 
+    Each blockchain serves distinct needs: 
         Ethereum for open dApps, 
         Hyperledger Fabric for private supply chains, 
         and R3 Corda for regulated financial networks. 
@@ -97,3 +97,12 @@
              needs, 
              speed, 
              and governance requirements.
+
+  Key Technical Requirement	Best Match	Why?
+
+
+| Use Case               | Key Technical Requirements         | Best Match          | Technical Advantages                          |
+|------------------------|------------------------------------|---------------------|-----------------------------------------------|
+| **Decentralized App (dApp)** | Open access, Smart contract support, Tokenization | Ethereum | • EVM compatibility <br> • Layer 2 scaling solutions <br> • ERC token standards (20/721) |
+| **Supply Chain Network** | High throughput, Data privacy, Permissioned access | Hyperledger Fabric | • 1,000+ TPS performance <br> • Private channels <br> • No cryptocurrency overhead |
+| **Inter-Bank Finance** | Regulatory compliance, Transaction finality, Legal enforceability | R3 Corda | • Notary-based validation <br> • UTXO model <br> • Legal-prose smart contracts |
